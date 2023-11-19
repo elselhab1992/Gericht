@@ -1,4 +1,4 @@
-import "./NewsLetter.css";
+import ",/Newsletter.css";
 import SubHeading from "../SubHeading/SubHeading";
 
 const Newsletter = () => {
