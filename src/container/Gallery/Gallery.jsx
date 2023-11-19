@@ -1,6 +1,6 @@
 import "./Gallery.css";
 import { images } from "../../Data";
-import SubHeading from "../../components/SubHeading/SubHeading";
+import { Buttons, SubHeading } from "../../components/index";
 import { FaInstagram } from "react-icons/fa";
 import { FaArrowLeft, FaArrowRightLong } from "react-icons/fa6";
 import { useRef } from "react";
@@ -38,7 +38,7 @@ const Gallery = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit nobis odio
             voluptatum adipisicing voluptatum adipisicing voluptatum adipisicing
           </p>
-          <button>View more</button>
+          <Buttons>View more</Buttons>
         </div>
         {/* right side */}
 

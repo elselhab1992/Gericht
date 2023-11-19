@@ -1,5 +1,5 @@
 import "./FindUs.css";
-import SubHeading from "../../components/SubHeading/SubHeading";
+import { Buttons, SubHeading } from "../../components/index";
 import { images } from "../../Data";
 
 const FindUs = () => {
@@ -19,7 +19,7 @@ const FindUs = () => {
             <h4>Opening Hours</h4>
             <p>Mon-Fri: 10.00am-02.00am</p>
             <p>Sat-Sun: 10.00am-03.00am</p>
-            <button>visit us</button>
+            <Buttons>visit us</Buttons>
           </div>
         </div>
         {/* left */}

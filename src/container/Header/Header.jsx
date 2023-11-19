@@ -1,6 +1,6 @@
 import "./Header.css";
 import welcome from "../../assets/welcome.png";
-import SubHeading from "../../components/SubHeading/SubHeading";
+import { Buttons, SubHeading } from "../../components/index";
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
               voluptatum
               <br /> consequatur necessitatibus atque neque
             </p>
-            <button>Explore Menu</button>
+            <Buttons>Explore Menu</Buttons>
           </div>
         </div>
         <div className="header-img">

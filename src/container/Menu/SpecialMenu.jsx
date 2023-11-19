@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./SpecialMenu.css";
 import { images, data } from "../../Data";
-import SubHeading from "../../components/SubHeading/SubHeading";
-import MenuItem from "../../components/Menuitem/MenuItem";
+import { Buttons, SubHeading, MenuItem } from "../../components/index";
 
 const SpecialMenu = () => {
   return (
@@ -37,7 +36,7 @@ const SpecialMenu = () => {
             {/* middle  */}
             <div className="menu-img">
               <img src={images.menu} alt="menu" />
-              <button>View More</button>
+              <Buttons>View More</Buttons>
             </div>
             {/* right side */}
             <div className="special-menu-info">

@@ -47,21 +47,6 @@
   width: 400px;
 }
 
-.menu-img button {
-  background-color: var(--color-crimson);
-  margin-top: 20px;
-  padding: 10px;
-  width: 100px;
-  border: 1px solid var(--color-crimson);
-  transition: all 0.3s ease-in;
-}
-
-.menu-img button:hover {
-  color: var(--color-crimson);
-  background-color: var(--color-black);
-  cursor: pointer;
-}
-
 @media (min-width: 375px) {
   .special-section-container {
     padding: 30px;

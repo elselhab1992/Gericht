@@ -1,5 +1,5 @@
 import "./Newsletter.css";
-import SubHeading from "../SubHeading/SubHeading";
+import { Buttons, SubHeading } from "../index";
 
 const Newsletter = () => {
   return (
@@ -10,7 +10,7 @@ const Newsletter = () => {
         <p>and never miss latest updates!</p>
         <div className="input-field">
           <input type="text" placeholder="Enter your e-mail address" />
-          <button>subscribe</button>
+          <Buttons>subscribe</Buttons>
         </div>
       </div>
     </div>

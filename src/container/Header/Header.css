@@ -30,18 +30,7 @@
 }
 
 .header-bottom button {
-  background-color: var(--color-crimson);
-  margin-top: 20px;
-  padding: 10px;
   width: 120px;
-  border: 1px solid var(--color-crimson);
-  transition: all 0.3s ease-in;
-}
-
-.header-bottom button:hover {
-  color: var(--color-crimson);
-  background-color: var(--color-black);
-  cursor: pointer;
 }
 
 @media (min-width: 375px) {

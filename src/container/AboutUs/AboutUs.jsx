@@ -1,5 +1,6 @@
 import "./AboutUs.css";
 import { images } from "../../Data";
+import { Buttons } from "../../components/index";
 
 const AboutUs = () => {
   return (
@@ -16,7 +17,7 @@ const AboutUs = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit nobis odio
               voluptatum consequatur
             </p>
-            <button>know more</button>
+            <Buttons>know more</Buttons>
           </div>
           <div className="about-img">
             <img src={images.knife} alt="knife" />
@@ -28,7 +29,7 @@ const AboutUs = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit nobis odio
               voluptatum consequatur
             </p>
-            <button>know more</button>
+            <Buttons>know more</Buttons>
           </div>
         </div>
       </div>
