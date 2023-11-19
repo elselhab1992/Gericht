@@ -16,11 +16,6 @@
 }
 
 @media (min-width: 375px) {
-  .video-section video {
-    width: 100vw;
-    height: 100vh;
-    padding: 5px;
-  }
 }
 
 @media (min-width: 1024px) {
