@@ -84,29 +84,64 @@ const Navbar = () => {
         {/* mobile links */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <a href="/" onClick={closeMenu}>
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#about" onClick={closeMenu}>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#testimonials" onClick={closeMenu}>
+            <Link
+              to="menu"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Menu
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#demo" onClick={closeMenu}>
+            <Link
+              to="awards"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Awards
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#demo" onClick={closeMenu}>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="navbar-login">
