@@ -1,0 +1,169 @@
+.gallery-section {
+  width: 100%;
+  background-color: var(--color-black);
+}
+
+.gallery-container {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.gallery-heading {
+  margin-bottom: 20px;
+}
+
+.gallery-heading h2 {
+  font-size: 40px;
+  color: var(--color-golden);
+}
+
+.gallery-info {
+  padding-right: 20px;
+}
+
+.gallery-info p {
+  color: var(--color-crimson);
+}
+
+.gallery-info button {
+  background-color: var(--color-crimson);
+  margin-top: 20px;
+  padding: 10px;
+  width: 100px;
+  border: 1px solid var(--color-crimson);
+  transition: all 0.3s ease-in;
+}
+
+.gallery-info button:hover {
+  color: var(--color-crimson);
+  background-color: var(--color-black);
+  cursor: pointer;
+}
+
+.gallery-img {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gallery-img::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  min-width: 301px;
+  height: 300px;
+  position: relative;
+}
+
+.gallery-img .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.gallery-img .card img:hover {
+  opacity: 0.35;
+}
+
+.instagram {
+  position: absolute;
+  inset: 50% 50%;
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.gallery-img .card:hover .instagram {
+  opacity: 1;
+}
+
+.gallery-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 50%;
+  bottom: 45%;
+  z-index: 1;
+}
+
+.arrow {
+  font-size: 30px;
+  margin: 0 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: var(--color-black);
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.5s ease;
+}
+
+.arrow:hover {
+  color: #fff;
+  background-color: var(--color-black);
+}
+
+@media (min-width: 375px) {
+  .gallery-container {
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .gallery-img {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .gallery-btns {
+    width: 90%;
+    bottom: 30%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-container {
+    flex-direction: row;
+  }
+
+  .gallery-btns {
+    width: 52%;
+    bottom: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gallery-container {
+    padding: 100px;
+  }
+
+  .card {
+    min-width: 301px;
+    height: 300px;
+  }
+
+  .gallery-btns {
+    width: 49%;
+    bottom: 40%;
+  }
+}

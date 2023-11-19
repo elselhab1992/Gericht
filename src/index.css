@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@400;700&family=Lexend+Deca:wght@400;500&family=Poppins:wght@300;400;600&display=swap");
+
+:root {
+  --font-base: "Cormorant Upright", serif;
+  --font-alt: "Open Sans", sans-serif;
+
+  --color-golden: #dcca87;
+  --color-black: #0c0c0c;
+  --color-gray: #545454;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaaaaa;
+  --color-white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 90px;
+  font-family: poppins, sans-serif;
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-base);
+}
+
+p {
+  font-family: var(--font-alt);
+}

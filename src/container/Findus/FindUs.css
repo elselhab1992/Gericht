@@ -1,0 +1,96 @@
+.find-us {
+  width: 100%;
+  background: url("../../assets/bg.png");
+}
+
+.find-us-container {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.find-img {
+  width: 550px;
+}
+
+.find-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.find-us-heading {
+  margin-bottom: 30px;
+}
+
+.find-us-heading h2 {
+  color: var(--color-golden);
+  font-size: 50px;
+}
+
+.location p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.times h4 {
+  color: var(--color-golden);
+  margin-bottom: 30px;
+}
+
+.times p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.times button {
+  background-color: var(--color-crimson);
+  margin-top: 20px;
+  padding: 10px;
+  width: 100px;
+  border: 1px solid var(--color-crimson);
+  transition: all 0.3s ease-in;
+}
+
+.times button:hover {
+  color: var(--color-crimson);
+  background-color: var(--color-black);
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  .find-us-container {
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .location p {
+    font-size: 13px;
+  }
+
+  .find-img {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .find-us-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .find-us-container {
+    padding: 100px 0;
+  }
+
+  .location p {
+    font-size: 16px;
+  }
+
+  .find-img {
+    width: 550px;
+    margin-top: 0;
+  }
+}
